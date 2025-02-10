@@ -1,0 +1,148 @@
+body {/*llevo 08:30:00 de el curso "html y css q dura 1 dia xd"*/
+    height: 3750px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: #eee;
+    background: linear-gradient(to bottom, #5c0068,#42004b,#2a0030 ,#220027,#18001b,#111);
+}
+
+.init {
+    height: 150px;
+    background-color: #1119;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 33px 0 #000;
+}
+
+h1 {
+    color: rgb(67, 82, 165);
+    font-size: 70px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    margin-top: 15px;
+    transition-duration: 700ms;
+    transition-delay: 0;
+}
+
+h1:hover {
+    color: rgb(43, 56, 133);
+    scale: 1.1;
+    text-shadow: 0 0 35px #888;
+}
+
+
+p {
+    font-family: sans-serif;
+    margin: 10px 60px 0px 60px;
+    padding: 20px;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list {
+    height: 280px;
+    width: 300px;
+    background-color: #300042;
+    border: 3px solid #111;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+    box-shadow: 0 0 55px 0 #0009;
+    display: inline-block;
+}
+
+.a1 {
+    color: rgb(95, 94, 94);
+} 
+.a1:hover {
+    color: rgb(48, 42, 42);
+}
+
+.sig-letra {    
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+    margin-left: 15px;
+}
+
+li, a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(95, 94, 94);
+    margin-bottom: 10px;
+}
+
+li, a:hover {
+    color: rgb(48, 42, 42);
+}
+
+.principal {
+    height: 3000px;
+    width: 1000px;
+    background-color: #300042;
+    margin: auto;
+    margin-top: 40px;
+    border: 20px solid #000;
+    border-radius: 15px;
+}
+
+.area1 {
+    width: 1000px;
+    height: 100px;
+    margin-top: 0;
+    background-color: #1a0024;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h4 {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    height: 400px;
+    width: 600px;
+    background-color: #570072;
+    margin: auto;
+    margin-top: 30px;
+    border: 10px solid #000;
+    border-radius: 15px;
+    font-family: sans-serif;
+    box-shadow: 0 0 45px #000;
+    transition-duration: 500ms;
+}
+
+.box:hover {
+    scale: 1.1;
+    box-shadow: 0 0 85px #888888;
+}
+
+h3 {
+    height: 80px;
+    width: 580px;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+p + a {
+    margin-left: 210px;
+    color: blue;
+}
+
+p + a:hover {
+    color: rgb(0, 0, 163);
+}
